@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: SiqagitProject20MayProject
+  gitServerName: kvv
+  gitUrl: https://github.com/Karthik-V-IBM-10
+  gitUsername: Karthik-V-IBM-10
+  gitBranch: main
