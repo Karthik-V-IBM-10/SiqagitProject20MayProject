@@ -50,7 +50,7 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: main
 services:
-- serviceName: project.siqagitproject20may.integrations:JMS_JNDI_SSL
+- serviceName: project.siqagitproject20may.integrations:JMSFlowTest
   packages:
   - name: SiqagitProject20MayProject
     version: "1.0"
@@ -82,6 +82,30 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2058
+- serviceName: project.siqagitproject20may.integrations:JMS_JNDI_SSL
+  packages:
+  - name: SiqagitProject20MayProject
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: TPP_services_in_FCS
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: SIQAJDBCAdapterTests
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.66
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 - serviceName: project.siqagitproject20may.integrations:SSL_JDBC_test
   packages:
   - name: SiqagitProject20MayProject
